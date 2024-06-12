@@ -49,17 +49,18 @@ h1 {
 
 .checkbox-row {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: start;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .checkbox-group {
     display: flex;
-    align-items: center;
     gap: 5px;
     width: 50%;
+}
+.checkbox-group label{
+    margin-bottom: 0px;
 }
 
 label {
@@ -111,7 +112,7 @@ input[type="checkbox"] {
 }
 
 .register-btn {
-    background-color: #007bff;
+    background-color: #498BC7;
     color: #fff;
 }
 
@@ -130,7 +131,7 @@ input[type="checkbox"] {
 
 .register-text{
     color: white;
-    background-color: #007bff;
+    background-color: #498BC7;
     padding: 2px;
     border-radius: 3px;
 }

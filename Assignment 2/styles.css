@@ -1,0 +1,112 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subscribe{
+  color : grey;
+}
+
+.search {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.blog-title {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.column {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #ffffff;
+    height : 250px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-subtitle-world {
+    font-size: 0.875rem;
+    color: #127ddd;
+    margin-bottom: 15px;
+}
+
+.card-subtitle-design {
+    font-size: 0.875rem;
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 1.25rem;
+}
+
+.card-date {
+    margin-top:2px;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.card-text {
+    font-size: 1rem;
+    height : 50px;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.search{
+  background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 20px;
+  width: 20%;
+  font-size: 5px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
